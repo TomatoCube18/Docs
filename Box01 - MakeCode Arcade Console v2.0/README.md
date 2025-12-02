@@ -6,7 +6,7 @@ Welcome to your brand-new **MakeCode Arcade Console**, a standalone portable gam
 
 <br><br>
 
-#### User Guide
+### User Guide
 
 Get started quickly with the setup and basics:
 
@@ -14,7 +14,7 @@ Get started quickly with the setup and basics:
 
 <br><br>
 
-#### Useful Files
+### Useful Files
 
 Essential firmware and sample files for your console:
 

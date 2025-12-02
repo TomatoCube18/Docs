@@ -2,18 +2,16 @@
 
 ## MakeCode Arcade Console v2.0 (RP2040)
 
-![IMG_5882_Posting](Images/IMG_5882_Posting.jpg)
+<img src="Images/IMG_5882_Posting.jpg" alt="IMG_5882_Posting" width="700" height="auto"/>
 
 Welcome to your brand-new **MakeCode Arcade Console powered by the Raspberry Pi RP2040**!
-This guide will help you get your first game running in just a few minutes.
+This guide will help you get your first game running in just a few minutes. 
 
-
-
+ <br><br>
 ------
-
 ## **0. Major Components on the Console**
 
-![TopView](Images/TopView.png)
+<img src="Images/TopView.png" alt="TopView" width="800" height="auto"/>
 
 ### **(A) Joystick & BOOTSEL Switch**
 
@@ -53,22 +51,19 @@ The console runs on **3× AAA batteries**, and the switch allows you to conserve
 
 These are the main **gameplay action buttons**.<br>
 Used for jumping, selecting items, triggering abilities, confirming actions, or any function programmed by the game.<br>
-Most MakeCode Arcade games rely on these two buttons for player interaction.<br>
+Most MakeCode Arcade games rely on these two buttons for player interaction.
 
 
-
-------
-
-
+ <br><br>
 
 ## **1. Powering the Console**
 
 Your console requires **3× AAA batteries** (standard or rechargeable).
 Insert them into the battery compartment, matching the +/– markings.
 
-![BottomView](Images/BottomView.png)
+<img src="Images/BottomView.png" alt="BottomView" width="600" height="auto"/>
 
-------
+ <br><br>
 
 ## **2. Default Mode (Out of the Box)**
 
@@ -77,7 +72,7 @@ You can immediately load games created in MakeCode Arcade.
 
 If you **have NOT used microPython or CircuitPython** on this console, you can skip to Step 4.<br>
 
-------
+ <br><br>
 
 ## **3. (Only If Needed) Restore MakeCode Arcade Configuration UF2**
 
@@ -95,7 +90,7 @@ If you previously loaded **microPython** or **CircuitPython**, you must restore 
 
 💡You only ever need to do this **after switching away to either microPython & circuitPython modes**.<br>
 
-------
+ <br><br>
 
 ## **4. Create Your First Game (“Hello World”)**
 
@@ -115,12 +110,13 @@ If you previously loaded **microPython** or **CircuitPython**, you must restore 
    - Key in **"Hello World"** into the **splash** block.
    - The final code should appers as follow:
 
-   ![HelloWorld](Images/HelloWorld.png)
+ 
+    <img src="Images/HelloWorld.png" alt="HelloWorld" width="400" height="auto"/>
 
 6. Press the **Play** button to test it in the simulator.<br>
 
-------
-
+ <br><br>
+ 
 ## **5. Download Your Game to the Console**
 
 When you’re ready to load the game:
@@ -142,7 +138,7 @@ When you’re ready to load the game:
 4. Drag the **.UF2** into the **RPI-RP2** drive
 5. The console restarts and your game runs immediately!
 
-------
+ <br><br>
 
 ## **6. MakeCode Arcade - You’re Ready to Play!**
 
@@ -150,10 +146,7 @@ Your game should now appear on the console screen.<br>
 Experiment, explore, and try creating your own sprites and controls next!<br>
 
 
-
-
-
-------
+ <br><br>
 
 ## **7. Using MicroPython & CircuitPython on MakeCode Arcade Console v2.0 (RP2040)**
 
@@ -165,9 +158,9 @@ This rest of the guide shows you how to:
 
 > ⚠️ **Important:**
 > When you install MicroPython or CircuitPython, you **overwrite** the MakeCode Arcade firmware.<br>
-> To play Arcade games again, you must re-flash the **MakeCode configuration UF2** (see section 3 "Restore MakeCode Arcade Configuration UF2").<br>
+> To play Arcade games again, you must re-flash the **MakeCode configuration UF2** (see section 3 "Restore MakeCode Arcade Configuration UF2").
 
-------
+ <br><br>
 
 ## 8. What You Need
 
@@ -175,9 +168,9 @@ This rest of the guide shows you how to:
 - **USB-C cable** (data-capable)
 - A computer with:
   - **Thonny** installed ([https://thonny.org](https://thonny.org/))
-  - Internet access (for the first-time MicroPython install)<br>
+  - Internet access (for the first-time MicroPython install)
 
-------
+ <br><br>
 
 ## 9. Put the Console in BOOTSEL Mode
 
@@ -191,9 +184,9 @@ We use BOOTSEL mode to install or change the firmware.
 
 Your computer should now show a new USB drive named **`RPI-RP2`**.
 
-If you don’t see it, repeat the steps above.<br>
+If you don’t see it, repeat the steps above.
 
-------
+ <br><br>
 
 ## 10a. Install MicroPython using Thonny
 
@@ -236,7 +229,7 @@ Thonny should show something like a `>>>` prompt (the Python REPL).<br>
 
 This confirms your console is talking to MicroPython correctly 🎉<br>
 
-------
+ <br><br>
 
 ## 10b. (Altenatively) Install CircuitPython using Mass Storage
 
@@ -278,7 +271,7 @@ We’ll still use **Thonny** as the code editor, but CircuitPython is installed 
 
 Unplug and replug the console or press **RESET** — it will automatically run `code.py` and print the message to the serial console.<br>
 
-------
+ <br><br>
 
 ## 11. Returning to MakeCode Arcade Mode
 
