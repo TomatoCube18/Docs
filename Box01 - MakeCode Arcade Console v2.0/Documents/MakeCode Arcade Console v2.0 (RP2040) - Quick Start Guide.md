@@ -11,7 +11,7 @@ This guide will help you get your first game running in just a few minutes.
 ------
 ## **0. Major Components on the Console**
 
-![TopView](Images/TopView.png)
+<img src="Images/TopView.png" alt="TopView" width="800" height="auto"/>
 
 ### **(A) Joystick & BOOTSEL Switch**
 
@@ -110,7 +110,8 @@ If you previously loaded **microPython** or **CircuitPython**, you must restore 
    - Key in **"Hello World"** into the **splash** block.
    - The final code should appers as follow:
 
-   ![HelloWorld](Images/HelloWorld.png)
+ 
+    <img src="Images/HelloWorld.png" alt="HelloWorld" width="400" height="auto"/>
 
 6. Press the **Play** button to test it in the simulator.<br>
 
