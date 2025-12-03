@@ -84,7 +84,7 @@ If you previously loaded **microPython** or **CircuitPython**, you must restore 
    – on this console, BOOTSEL = **pressing down the left/analog joystick**.
 2. While holding BOOTSEL, **press RESET**<br>
    – the RESET button is located **on the top of the console**.
-3. Release everything — a USB drive called **RPI-RP2** appears.
+3. Release everything - a USB drive called **RPI-RP2** appears.
 4. Copy the **MakeCode Arcade Configuration UF2** - **[TomatoCubeMakeCode_cfg1x2_v2.uf2](../Files/TomatoCubeMakeCode_cfg1x2_v2.uf2)** into the **`RPI-RP2`**  drive.
 5. After restarting, the console is now ready for any **MakeCode Arcade Game**.
 
@@ -121,7 +121,7 @@ If you previously loaded **microPython** or **CircuitPython**, you must restore 
 
 When you’re ready to load the game:
 
-### **Step A — Enter BOOTSEL Mode**
+### **Step A - Enter BOOTSEL Mode**
 
 1. Press & hold **Joystick (BOOTSEL)**<br>
    – on this console, BOOTSEL = **pressing down the left/analog joystick**.
@@ -129,7 +129,7 @@ When you’re ready to load the game:
    – the RESET button is located **on the top of the console**.
 3. Release → **RPI-RP2** drive appears on your computer
 
-### **Step B — Download from MakeCode Arcade**
+### **Step B - Download from MakeCode Arcade**
 
 1. Click **Download**
 2. When asked for a device, choose:<br>
@@ -269,7 +269,7 @@ We’ll still use **Thonny** as the code editor, but CircuitPython is installed 
 
 6. Save it to the **CIRCUITPY** drive as `code.py`.
 
-Unplug and replug the console or press **RESET** — it will automatically run `code.py` and print the message to the serial console.<br>
+Unplug and replug the console or press **RESET** - it will automatically run `code.py` and print the message to the serial console.<br>
 
  <br><br>
 
