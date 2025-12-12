@@ -9,8 +9,8 @@ A programmable electronic snow globe with a festive winter scene, perfect for le
 
 Select your edition and follow the dedicated user guide to set up your snow globe:
 
-- Micro:bit v2 Edition – Ideal for beginners **[User Manual](microbit%20v2%20Edition/Files/SnowGlobe_microBit_UserManual_v1.0.pdf)** 
-- Raspberry Pi Pico Edition – Great for intermediate makers **[User Manual](Raspberry%20Pi%20Pico%20Edition/Files/SnowGlobe_Pico_UserManual_v1.0.pdf)**
+- Micro:bit v2 Edition – Ideal for beginners **[User Manual](microbit%20v2%20Edition/Files/SnowGlobe_microBit_UserManual.pdf)** 
+- Raspberry Pi Pico Edition – Great for intermediate makers **[User Manual](Raspberry%20Pi%20Pico%20Edition/Files/SnowGlobe_Pico_UserManual.pdf)**
 - WCH CH32x033 Edition – For advanced tinkerers looking to stretch their engineering muscles
 
 <br><br>
@@ -19,6 +19,7 @@ Select your edition and follow the dedicated user guide to set up your snow glob
 The core experience is the same, but each variant uses a different microcontroller, programming language, and toolchain. Use the table below to choose the right one for you.
 
 <img src="Images/X'mas%20SnowGlobe%20Variant%20Differences.PNG" alt="Comparison table of the three Snow Globe variants" width="700"/>
+
 
 
 
