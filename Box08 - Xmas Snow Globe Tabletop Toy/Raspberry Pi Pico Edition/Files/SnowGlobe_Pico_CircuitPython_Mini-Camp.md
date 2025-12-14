@@ -90,7 +90,8 @@ Before we embark on the full journey into CircuitPython or any Programming Langu
 
 In this section, we will cover how to access your board's pins through CircuitPython. 
 
-![2.2.1 - LED1_Location](assets/2.2.1%20-%20LED1_Location.png)
+<img src="assets/2.2.1%20-%20LED1_Location.png" alt="2.2.1 - LED1_Location" width="500" height="auto"/>
+
 
 ##### 🔌 Wiring of the LED1 (GPIO16) to Pico Dev Board
 
@@ -310,7 +311,8 @@ Your body acts like a small capacitor, and the sensor chip senses this tiny chan
 
 - Touch Sensitive screw → MCU senses change → LED toggles ON/OFF
 
-![3.1.1 - Touch_Sensing](assets/3.1.1%20-%20Touch_Sensing.png)
+<img src="assets/3.1.1%20-%20Touch_Sensing.png" alt="3.1.1 - Touch_Sensing" width="500" height="auto"/>
+
 
 ##### 🔌 Wiring of the LED2 (GPIO17) & LED3 (GPIO18) to Pico Dev Board
 
@@ -388,7 +390,8 @@ In this activity, we will measure **ambient light brightness** using an analog l
 
 The ADC reads a value between **0 → 65535**, representing voltage from **0 → 3.3V**. As the surrounding light increases, the voltage level rises. This makes it perfect for interactive environmental sensing projects.
 
-![3.2.1 - Light_Sensing](assets/3.2.1%20-%20Light_Sensing.png)
+<img src="assets/3.2.1%20-%20Light_Sensing.png" alt="3.2.1 - Light_Sensing" width="400" height="auto"/>
+
 
 ##### 🔌 Wiring of Light Sensor (GPIO26) to Pico Dev Board
 
@@ -662,7 +665,8 @@ In our X'MAS SnowGlobe Table-Top Toy, we have 3 **dedicated RGB NeoPixel**, the 
 
 NeoPixels (WS2812-type LEDs) are **intelligent RGB LEDs** (IC controller build-in) that can be daisy-chained. Each LED listens to a **precise digital timing signal** and updates its color based on the received data. Once the data is Passed & Processed, it automatically shifts the rest of the data down the chain to the next pixel.
 
-![7.1.1.2 - NeoPixel_die](/Users/Percy/My Files/Project/All_Things_Python/TC-CP-PY-01-00/assets/7.1.1.2%20-%20NeoPixel_die.png)
+<img src="assets/5.1.1 - NeoPixel_die.png" alt="5.1.1 - NeoPixel_die" width="300" height="auto"/>
+
 
 In CircuitPython, we use the `neopixel` library, which handles all the timing for us.
 
@@ -811,7 +815,9 @@ Using the on-board NeoPixels, we will now create a smooth, fading transition bet
 - \#39977f
 - \#b4dac3
 
-[![LakeSide Aurora](https://camo.githubusercontent.com/0c321b004cf9b7f4421f4230af473698f00809ec7d378015d41784998d0a9141/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537323065646535353535393836623136663134363634322f39663662666238352d313334312d346663662d616635622d3035636531626532623837652f4e6f72746865726e2b4c69676874732b342e6a70673f666f726d61743d3235303077)](https://camo.githubusercontent.com/0c321b004cf9b7f4421f4230af473698f00809ec7d378015d41784998d0a9141/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537323065646535353535393836623136663134363634322f39663662666238352d313334312d346663662d616635622d3035636531626532623837652f4e6f72746865726e2b4c69676874732b342e6a70673f666f726d61743d3235303077)
+<img src="https://camo.githubusercontent.com/0c321b004cf9b7f4421f4230af473698f00809ec7d378015d41784998d0a9141/68747470733a2f2f696d616765732e73717561726573706163652d63646e2e636f6d2f636f6e74656e742f76312f3537323065646535353535393836623136663134363634322f39663662666238352d313334312d346663662d616635622d3035636531626532623837652f4e6f72746865726e2b4c69676874732b342e6a70673f666f726d61743d3235303077" alt="LakeSide Aurora" width="500" height="auto"/>
+
+
 
 
 
@@ -1063,7 +1069,7 @@ To solve this, engineers use an **RTC (Real-Time Clock)** chip with a **backup b
 One of the most reliable and popular modules, and also the prefered module for our X'mas SnowGlobe is the **DS3231**, a temperature-compensated RTC that keeps extremely accurate time, even over months or years.
 Thanks to its onboard **backup battery** included on the module, the DS3231 continues ticking even when the main board is powered off.
 
-![7.1.1 - RTC-3231](assets/7.1.1%20-%20RTC-3231.jpg)
+<img src="7.1.1%20-%20RTC-3231.jpg" alt="7.1.1 - RTC-3231" width="300" height="auto"/>
 
 
 
@@ -1098,7 +1104,9 @@ Without it, you'll get errors when trying to run `RTC` code.
 Just like the OLED display discuessed in Chapter 6, the DS3231 communicates using the **I²C bus**.
 This means it shares the same **SDA** and **SCL** lines, allowing multiple devices to be connected at once.
 
-![7.1.2 - RTC-location](assets/7.1.2%20-%20RTC-location.png)
+
+<img src="assets/7.1.2%20-%20RTC-location.png" alt="7.1.2 - RTC-location" width="700" height="auto"/>
+
 
 The module used in this project is a standard commonly available **DS3231 RTC module**, and the Raspbery Pico carrier board includes a **pre-installed pin-header** where the student plugs the RTC module directly.
 
