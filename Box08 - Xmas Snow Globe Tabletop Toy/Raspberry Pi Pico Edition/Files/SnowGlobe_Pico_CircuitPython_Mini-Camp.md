@@ -1069,7 +1069,7 @@ To solve this, engineers use an **RTC (Real-Time Clock)** chip with a **backup b
 One of the most reliable and popular modules, and also the prefered module for our X'mas SnowGlobe is the **DS3231**, a temperature-compensated RTC that keeps extremely accurate time, even over months or years.
 Thanks to its onboard **backup battery** included on the module, the DS3231 continues ticking even when the main board is powered off.
 
-<img src="7.1.1%20-%20RTC-3231.jpg" alt="7.1.1 - RTC-3231" width="300" height="auto"/>
+<img src="assets/7.1.1%20-%20RTC-3231.jpg" alt="7.1.1 - RTC-3231" width="300" height="auto"/>
 
 
 
