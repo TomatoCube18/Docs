@@ -80,7 +80,7 @@ While the syntax is similar to standard Python 3, CircuitPython uses special mod
 
 ✅ Your board will reboot and appear as a `CIRCUITPY` USB drive.
 
-![2.1.2.1 - BootSel_Button](assets/2.1.2.1 - BootSel_Button.png)
+![2.1.2.1 - BootSel_Button](assets/2.1.2.1%20-%20BootSel_Button.png)
 
 
 
@@ -90,7 +90,7 @@ Before we embark on the full journey into CircuitPython or any Programming Langu
 
 In this section, we will cover how to access your board's pins through CircuitPython. 
 
-![2.2.1 - LED1_Location](assets/2.2.1 - LED1_Location.png)
+![2.2.1 - LED1_Location](assets/2.2.1%20-%20LED1_Location.png)
 
 ##### 🔌 Wiring of the LED1 (GPIO16) to Pico Dev Board
 
@@ -310,7 +310,7 @@ Your body acts like a small capacitor, and the sensor chip senses this tiny chan
 
 - Touch Sensitive screw → MCU senses change → LED toggles ON/OFF
 
-![3.1.1 - Touch_Sensing](assets/3.1.1 - Touch_Sensing.png)
+![3.1.1 - Touch_Sensing](assets/3.1.1%20-%20Touch_Sensing.png)
 
 ##### 🔌 Wiring of the LED2 (GPIO17) & LED3 (GPIO18) to Pico Dev Board
 
@@ -388,7 +388,7 @@ In this activity, we will measure **ambient light brightness** using an analog l
 
 The ADC reads a value between **0 → 65535**, representing voltage from **0 → 3.3V**. As the surrounding light increases, the voltage level rises. This makes it perfect for interactive environmental sensing projects.
 
-![3.2.1 - Light_Sensing](assets/3.2.1 - Light_Sensing.png)
+![3.2.1 - Light_Sensing](assets/3.2.1%20-%20Light_Sensing.png)
 
 ##### 🔌 Wiring of Light Sensor (GPIO26) to Pico Dev Board
 
@@ -662,7 +662,7 @@ In our X'MAS SnowGlobe Table-Top Toy, we have 3 **dedicated RGB NeoPixel**, the 
 
 NeoPixels (WS2812-type LEDs) are **intelligent RGB LEDs** (IC controller build-in) that can be daisy-chained. Each LED listens to a **precise digital timing signal** and updates its color based on the received data. Once the data is Passed & Processed, it automatically shifts the rest of the data down the chain to the next pixel.
 
-![7.1.1.2 - NeoPixel_die](/Users/Percy/My Files/Project/All_Things_Python/TC-CP-PY-01-00/assets/7.1.1.2 - NeoPixel_die.png)
+![7.1.1.2 - NeoPixel_die](/Users/Percy/My Files/Project/All_Things_Python/TC-CP-PY-01-00/assets/7.1.1.2%20-%20NeoPixel_die.png)
 
 In CircuitPython, we use the `neopixel` library, which handles all the timing for us.
 
@@ -1063,7 +1063,7 @@ To solve this, engineers use an **RTC (Real-Time Clock)** chip with a **backup b
 One of the most reliable and popular modules, and also the prefered module for our X'mas SnowGlobe is the **DS3231**, a temperature-compensated RTC that keeps extremely accurate time, even over months or years.
 Thanks to its onboard **backup battery** included on the module, the DS3231 continues ticking even when the main board is powered off.
 
-![7.1.1 - RTC-3231](assets/7.1.1 - RTC-3231.jpg)
+![7.1.1 - RTC-3231](assets/7.1.1%20-%20RTC-3231.jpg)
 
 
 
@@ -1098,7 +1098,7 @@ Without it, you'll get errors when trying to run `RTC` code.
 Just like the OLED display discuessed in Chapter 6, the DS3231 communicates using the **I²C bus**.
 This means it shares the same **SDA** and **SCL** lines, allowing multiple devices to be connected at once.
 
-![7.1.2 - RTC-location](assets/7.1.2 - RTC-location.png)
+![7.1.2 - RTC-location](assets/7.1.2%20-%20RTC-location.png)
 
 The module used in this project is a standard commonly available **DS3231 RTC module**, and the Raspbery Pico carrier board includes a **pre-installed pin-header** where the student plugs the RTC module directly.
 
