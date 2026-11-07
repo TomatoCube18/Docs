@@ -112,7 +112,7 @@ Tips:
 
 ### 3.4 Soldering a through-hole joint
 
-![3.5.0 - Soldering-steps](assets/3.5.0 - Soldering-steps.png)
+![3.5.0 - Soldering-steps](assets/3.5.0%20-%20Soldering-steps.png)
 
 1. **Insert** the component leg through the hole, from the silkscreen side. Bend the legs slightly outward on the other side so the part stays in place.
 2. **Heat** - touch the tip so it contacts **both** the pad and the leg at the same time. Hold for about 1-2 seconds.
@@ -123,7 +123,7 @@ Tips:
 
 ### 3.5 What a good joint looks like
 
-![3.5.0 - Soldering-Defects](assets/3.5.1 - Soldering-Defects.png)
+![3.5.0 - Soldering-Defects](assets/3.5.1%20-%20Soldering-Defects.png)
 
 | Joint | What you see | Fix |
 |---|---|---|
@@ -276,7 +276,7 @@ Everything on Bear-Buddy is already wired to a fixed predefined pin on the ESP32
 | **IR Receiver**      | `IO21`                              |
 | **I²C bus** | `SDA = IO5`, `SCL = IO6`           |
 
-![1.3.1 - BearBuddy_Pinout](assets/1.3.1 - BearBuddy_Pinout.png)
+![1.3.1 - BearBuddy_Pinout](assets/1.3.1%20-%20BearBuddy_Pinout.png)
 
 > 💡 Note:
 > Keep this table handy! This will be the only information you truely need when moving on to advance C/C++ Programming.
