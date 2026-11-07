@@ -1,0 +1,48 @@
+module main
+author unknown
+version 1 0 
+description ''
+variables h m s 
+
+  spec 'r' 'from BCD' 'from BCD _' 'auto' '10'
+  spec 'r' 'to BCD' 'to BCD _' 'auto' '10'
+
+to 'from BCD' n {
+  return (((n >> 4) * 10) + (n & 15))
+}
+
+to 'to BCD' n {
+  return (((n / 10) << 4) + (n % 10))
+}
+
+script 102 50 {
+to 'from BCD' {}
+}
+
+script 614 56 {
+whenButtonPressed 'B'
+i2cSet 104 6 ('to BCD' 26)
+i2cSet 104 5 ('to BCD' 11)
+i2cSet 104 4 ('to BCD' 2)
+i2cSet 104 3 ('to BCD' 2)
+i2cSet 104 2 ('to BCD' 15)
+i2cSet 104 1 ('to BCD' 30)
+i2cSet 104 0 ('to BCD' 6)
+sayIt 'Clock Set!'
+}
+
+script 100 180 {
+to 'to BCD' {}
+}
+
+script 106 326 {
+whenStarted
+forever {
+  h = ('from BCD' ((i2cGet 104 2) & 63))
+  m = ('from BCD' (i2cGet 104 1))
+  s = ('from BCD' ((i2cGet 104 0) & 127))
+  sayIt ('[data:join]' h ':' m ':' s)
+  waitMillis 1000
+}
+}
+

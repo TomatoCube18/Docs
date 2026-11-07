@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 560" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="820" height="560" fill="#ffffff"/>
+<text x="410" y="40" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32">Bear-Buddy - ESP32-C3 Peripheral Pinout</text>
+<circle cx="320" cy="168" r="54" fill="#2b2b32"/>
+<circle cx="500" cy="168" r="54" fill="#2b2b32"/>
+<circle cx="410" cy="293" r="150" fill="#2b2b32"/>
+<rect x="318" y="259" rx="10" width="184" height="68" fill="#111116" stroke="#3a3a44" stroke-width="2"/>
+<text x="410" y="289" text-anchor="middle" font-size="22" font-weight="700" fill="#ffffff">ESP32-C3</text>
+<text x="410" y="315" text-anchor="middle" font-size="15" fill="#b7b7c2" font-family="Consolas, monospace">SuperMini</text>
+<line x1="270" y1="118" x2="300" y2="188" stroke="#e0972f" stroke-width="2.5"/>
+<circle cx="300" cy="188" r="5" fill="#e0972f"/>
+<rect x="8" y="86" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="34" cy="118" r="9" fill="#e0972f"/>
+<text x="56" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">Simple LED</text>
+<rect x="192" y="102" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="225" y="124" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO3</text>
+<line x1="270" y1="228" x2="262" y2="262" stroke="#3f8cff" stroke-width="2.5"/>
+<circle cx="262" cy="262" r="5" fill="#3f8cff"/>
+<rect x="8" y="196" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="34" cy="228" r="9" fill="#3f8cff"/>
+<text x="56" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">Button A</text>
+<rect x="192" y="212" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="225" y="234" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO9</text>
+<line x1="270" y1="338" x2="262" y2="330" stroke="#3f8cff" stroke-width="2.5"/>
+<circle cx="262" cy="330" r="5" fill="#3f8cff"/>
+<rect x="8" y="306" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="34" cy="338" r="9" fill="#3f8cff"/>
+<text x="56" y="346" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">Button B</text>
+<rect x="192" y="322" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="225" y="344" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO4</text>
+<line x1="270" y1="448" x2="300" y2="398" stroke="#9b6cff" stroke-width="2.5"/>
+<circle cx="300" cy="398" r="5" fill="#9b6cff"/>
+<rect x="8" y="416" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="34" cy="448" r="9" fill="#9b6cff"/>
+<text x="56" y="456" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">Buzzer</text>
+<rect x="192" y="432" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="225" y="454" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO10</text>
+<line x1="550" y1="118" x2="520" y2="188" stroke="#2fb673" stroke-width="2.5"/>
+<circle cx="520" cy="188" r="5" fill="#2fb673"/>
+<rect x="550" y="86" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="576" cy="118" r="9" fill="#2fb673"/>
+<text x="598" y="126" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">NeoPixel 5x5</text>
+<rect x="734" y="102" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="767" y="124" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO7</text>
+<line x1="550" y1="228" x2="558" y2="262" stroke="#d84c2f" stroke-width="2.5"/>
+<circle cx="558" cy="262" r="5" fill="#d84c2f"/>
+<rect x="550" y="196" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="576" cy="228" r="9" fill="#d84c2f"/>
+<text x="598" y="236" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">IR Receiver</text>
+<rect x="734" y="212" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="767" y="234" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO21</text>
+<line x1="550" y1="338" x2="558" y2="330" stroke="#17a0a0" stroke-width="2.5"/>
+<circle cx="558" cy="330" r="5" fill="#17a0a0"/>
+<rect x="550" y="306" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="576" cy="338" r="9" fill="#17a0a0"/>
+<text x="598" y="346" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">I2C  SDA</text>
+<rect x="734" y="322" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="767" y="344" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO5</text>
+<line x1="550" y1="448" x2="520" y2="398" stroke="#17a0a0" stroke-width="2.5"/>
+<circle cx="520" cy="398" r="5" fill="#17a0a0"/>
+<rect x="550" y="416" rx="12" width="262" height="64" fill="#ffffff" stroke="#d9d2c4" stroke-width="2"/>
+<circle cx="576" cy="448" r="9" fill="#17a0a0"/>
+<text x="598" y="456" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#2b2b32">I2C  SCL</text>
+<rect x="734" y="432" rx="8" width="66" height="32" fill="#1f1f26"/>
+<text x="767" y="454" text-anchor="middle" font-family="Consolas, monospace" font-size="18" font-weight="700" fill="#ffffff">IO6</text>
+<text x="410" y="540" text-anchor="middle" font-size="15" fill="#6a6a74">Button A (IO9) is also the BOOT / strapping pin.  I2C SDA=IO5, SCL=IO6 share one bus.</text>
+</svg>

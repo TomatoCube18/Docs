@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 600" font-family="Segoe UI, Arial, sans-serif">
+<rect x="0" y="0" width="640" height="600" fill="#ffffff"/>
+<text x="320" y="42" text-anchor="middle" font-size="25" font-weight="700" fill="#2b2b32">NeoPixel 5x5 - Serpentine Chain Order</text>
+<text x="320" y="70" text-anchor="middle" font-size="16" fill="#6a6a74">Numbers = position in the data chain (pixels[n]). Chain starts top-right.</text>
+<rect x="150" y="120" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="184" y="165" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">4</text>
+<rect x="224" y="120" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="258" y="165" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">3</text>
+<rect x="298" y="120" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="332" y="165" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">2</text>
+<rect x="372" y="120" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="406" y="165" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">1</text>
+<rect x="446" y="120" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="480" y="165" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">0</text>
+<rect x="150" y="194" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="184" y="239" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">5</text>
+<rect x="224" y="194" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="258" y="239" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">6</text>
+<rect x="298" y="194" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="332" y="239" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">7</text>
+<rect x="372" y="194" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="406" y="239" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">8</text>
+<rect x="446" y="194" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="480" y="239" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">9</text>
+<rect x="150" y="268" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="184" y="313" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">14</text>
+<rect x="224" y="268" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="258" y="313" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">13</text>
+<rect x="298" y="268" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="332" y="313" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">12</text>
+<rect x="372" y="268" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="406" y="313" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">11</text>
+<rect x="446" y="268" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="480" y="313" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">10</text>
+<rect x="150" y="342" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="184" y="387" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">15</text>
+<rect x="224" y="342" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="258" y="387" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">16</text>
+<rect x="298" y="342" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="332" y="387" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">17</text>
+<rect x="372" y="342" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="406" y="387" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">18</text>
+<rect x="446" y="342" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="480" y="387" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">19</text>
+<rect x="150" y="416" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="184" y="461" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">24</text>
+<rect x="224" y="416" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="258" y="461" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">23</text>
+<rect x="298" y="416" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="332" y="461" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">22</text>
+<rect x="372" y="416" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="406" y="461" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">21</text>
+<rect x="446" y="416" width="68" height="68" rx="9" fill="#f3eee3" stroke="#d9d2c4" stroke-width="2"/>
+<text x="480" y="461" text-anchor="middle" font-size="26" font-weight="700" fill="#2b2b32" font-family="Consolas, monospace">20</text>
+<polyline points="480,165 406,165 332,165 258,165 184,165 184,239 258,239 332,239 406,239 480,239 480,313 406,313 332,313 258,313 184,313 184,387 258,387 332,387 406,387 480,387 480,461 406,461 332,461 258,461 184,461" fill="none" stroke="#d84c2f" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" opacity="0.55"/>
+<text x="529" y="163" font-size="16" font-weight="700" fill="#d84c2f">DIN</text>
+<line x1="527" y1="157" x2="505" y2="157" stroke="#d84c2f" stroke-width="4"/>
+<polygon points="505,151 493,157 505,163" fill="#d84c2f"/>
+<text x="184" y="104" text-anchor="middle" font-size="16" fill="#6a6a74">x=0</text>
+<text x="258" y="104" text-anchor="middle" font-size="16" fill="#6a6a74">x=1</text>
+<text x="332" y="104" text-anchor="middle" font-size="16" fill="#6a6a74">x=2</text>
+<text x="406" y="104" text-anchor="middle" font-size="16" fill="#6a6a74">x=3</text>
+<text x="480" y="104" text-anchor="middle" font-size="16" fill="#6a6a74">x=4</text>
+<text x="72" y="163" font-size="16" fill="#6a6a74">y=0</text>
+<text x="72" y="237" font-size="16" fill="#6a6a74">y=1</text>
+<text x="72" y="311" font-size="16" fill="#6a6a74">y=2</text>
+<text x="72" y="385" font-size="16" fill="#6a6a74">y=3</text>
+<text x="72" y="459" font-size="16" fill="#6a6a74">y=4</text>
+<line x1="150" y1="520" x2="190" y2="520" stroke="#d84c2f" stroke-width="4" opacity="0.55"/>
+<text x="200" y="526" font-size="16" fill="#2b2b32">data flows 0 -&gt; 24  (even rows -&gt; left, odd rows -&gt; right)</text>
+</svg>
