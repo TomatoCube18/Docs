@@ -59,7 +59,7 @@ Everything on Bear-Buddy is already wired to a fixed predefined pin on the ESP32
 | **IR Receiver**                      | `IO21`                 | `21`                   |
 | **I²C bus**                          | `SDA = IO5`, `SCL = IO6` | handled automatically |
 
-![1.3.1 - BearBuddy_Pinout](assets/1.3.1 - BearBuddy_Pinout.png)
+![1.3.1 - BearBuddy_Pinout](assets/1.3.1%20-%20BearBuddy_Pinout.png)
 
 > 💡 Note:
 > Keep this table handy. Whenever a chapter says "pin 7", it is talking about one of the pins above.
@@ -144,14 +144,14 @@ The board is now waiting to receive firmware.
 2. Open the MicroBlocks IDE (https://microblocks.fun/run, or the desktop app).
 3. Close any other program using the board (Thonny, Arduino IDE, the web flasher tab, a serial monitor).
 4. Click the **USB / connect icon** at the top of the IDE. In the browser version, a pop-up appears: choose your board's serial port (e.g. *USB JTAG/serial debug unit*) and click **Connect**.
-   ![2.3.0 - MB_Connect](assets/2.3.0 - MB_Connect.png)
+   ![2.3.0 - MB_Connect](assets/2.3.0%20-%20MB_Connect.png)
 5. When the connection succeeds, the icon gets a **green circle** and the board name appears in the IDE.
 
-![2.3.1 - MB_Connect_Full](assets/2.3.1 - MB_Connect_Full.png)
+![2.3.1 - MB_Connect_Full](assets/2.3.1%20-%20MB_Connect_Full.png)
 
 ##### 🗺️ A Quick Tour of the IDE
 
-![2.3.2 - MB_IDE_Tour](assets/2.3.2 - MB_IDE_Tour.png)
+![2.3.2 - MB_IDE_Tour](assets/2.3.2%20-%20MB_IDE_Tour.png)
 
 | Area | What it is |
 |---|---|
@@ -173,7 +173,7 @@ The basic categories cover pins, timing and logic. For things like the buzzer me
 3. Click a library to see a description, then click **Open** (or double-click it).
 4. Its blocks now appear under **Libraries** in the category list.
 
-![2.4.1 - MB_Add_Library](assets/2.4.1 - MB_Add_Library.png)
+![2.4.1 - MB_Add_Library](assets/2.4.1%20-%20MB_Add_Library.png)
 
 Each later chapter simply says *"add the **X** library (see §2.4)"*. The libraries you add are saved with your project.
 
@@ -181,7 +181,7 @@ Each later chapter simply says *"add the **X** library (see §2.4)"*. The librar
 
 Before we embark on the full journey, we will do a quick test to verify that both hardware and software are set up correctly. Let's start with the **Hello-World of the embedded world**: blinking the LED on `IO3`.
 
-![2.5.1 - LED_Location](assets/2.5.1 - LED_Location.png)
+![2.5.1 - LED_Location](assets/2.5.1%20-%20LED_Location.png)
 
 ##### 📍 LED Pin Mapping
 
@@ -191,7 +191,7 @@ Before we embark on the full journey, we will do a quick test to verify that bot
 
 🔧 Build this script. `when started` is in **Control**, `set digital pin` is in **Pins**, and `wait` is in **Control**:
 
-![2.5.2 - MB_Blink](assets/2.5.2 - MB_Blink.png)
+![2.5.2 - MB_Blink](assets/2.5.2%20-%20MB_Blink.png)
 
 ```text
 when started
@@ -223,7 +223,7 @@ One of the staples of programming is showing a message so you know what your pro
 
 🔧 Update the script:
 
-![2.6.1 - MB_HelloMicroBlocks](assets/2.6.1 - MB_HelloMicroBlocks.png)
+![2.6.1 - MB_HelloMicroBlocks](assets/2.6.1%20-%20MB_HelloMicroBlocks.png)
 
 ```text
 when started
@@ -291,7 +291,7 @@ Most GPIO pins are **digital**, either ON (3.3V) or OFF (0V). To create in-betwe
 
 In MicroBlocks, the PWM block is `set pin ( ) to ( )` in **Pins**. It takes a value from **0** (always off) to **1023** (always on). We'll use a **variable** called `brightness` (make it in **Variables > Add a variable**):
 
-![2.7.1 - MB_Fade](assets/2.7.1 - MB_Fade.png)
+![2.7.1 - MB_Fade](assets/2.7.1%20-%20MB_Fade.png)
 
 ```text
 when started
@@ -320,7 +320,7 @@ The SuperMini also carries its own small **LED on `IO8`**, which is *separate* f
 
 One quirk: the onboard LED is wired **active-low**, so you turn it **on** by driving the pin **LOW** (`false`) and **off** by driving it **HIGH** (`true`), the opposite of what you might expect.
 
-![2.8.1 - MB_Blink_OnBoard](assets/2.8.1 - MB_Blink_OnBoard.png)
+![2.8.1 - MB_Blink_OnBoard](assets/2.8.1%20-%20MB_Blink_OnBoard.png)
 
 ```text
 when started
@@ -348,7 +348,7 @@ Bear-Buddy has two tactile push-buttons. In this activity, each button does some
 
 - Press Button → MCU senses the change → LED toggles ON/OFF
 
-![3.1.1 - Buttons_Location](assets/3.1.1 - Buttons_Location.png)
+![3.1.1 - Buttons_Location](assets/3.1.1%20-%20Buttons_Location.png)
 
 ##### 📍 Button Pin Mapping
 
@@ -366,7 +366,7 @@ On the TomatoCube build, the **Input** category's `button A` and `button B` bloc
 
 MicroBlocks has **hat blocks** that wait for something to happen. We'll use a variable `led on` to remember the LED's state:
 
-![3.1.2 - MB_Buttons_Hat](assets/3.1.2 - MB_Buttons_Hat.png)
+![3.1.2 - MB_Buttons_Hat](assets/3.1.2%20-%20MB_Buttons_Hat.png)
 
 ```text
 when started
@@ -388,7 +388,7 @@ Press the buttons and watch the LED and the speech bubbles.
 
 The `button A` block is a handy shortcut. Here is what it does for you, using the raw **Pins** blocks:
 
-![3.1.3 - MB_Buttons_Raw](assets/3.1.3 - MB_Buttons_Raw.png)
+![3.1.3 - MB_Buttons_Raw](assets/3.1.3%20-%20MB_Buttons_Raw.png)
 
 ```text
 when started
@@ -419,7 +419,7 @@ Because the button is **active-low**, the pin reads `true` (HIGH) when idle and 
 
 **Everyone loves making noise!** Sound is produced when something **vibrates**, creating pressure waves in the air. Bear-Buddy has a buzzer on `IO10` that we can drive to make tones and melodies.
 
-![4.1.1 - Buzzer_Location](assets/4.1.1 - Buzzer_Location.png)
+![4.1.1 - Buzzer_Location](assets/4.1.1%20-%20Buzzer_Location.png)
 
 ##### 🎶 How Tone Generation Works
 
@@ -429,7 +429,7 @@ Bear-Buddy uses a single **passive** buzzer to create tone. We make a tone by se
 
 Using **§2.4**, add the **Tone** library (in the *Sound* folder).
 
-![4.1.1 - MB_Tone_Library](assets/4.1.1 - MB_Tone_Library.png)
+![4.1.1 - MB_Tone_Library](assets/4.1.1%20-%20MB_Tone_Library.png)
 
 ##### 📍 Buzzer Pin Mapping
 
@@ -439,7 +439,7 @@ Using **§2.4**, add the **Tone** library (in the *Sound* folder).
 
 🔧 Build the following script, we will reproduce the welcome melody found across many of TomatoCube's creations:
 
-![4.1.2 - MB_Welcome_Melody](assets/4.1.2 - MB_Welcome_Melody.png)
+![4.1.2 - MB_Welcome_Melody](assets/4.1.2%20-%20MB_Welcome_Melody.png)
 
 ```text
 when started
@@ -451,7 +451,7 @@ when started
 
 Or, using musical note names instead of frequencies:
 
-![4.1.3 - MB_Welcome_Melody_Note](assets/4.1.3 - MB_Welcome_Melody_Note.png)
+![4.1.3 - MB_Welcome_Melody_Note](assets/4.1.3%20-%20MB_Welcome_Melody_Note.png)
 
 ```text
 when started
@@ -493,7 +493,7 @@ The **frequency** of a note is the number of vibrations per second. Higher frequ
 
 Let's combine Chapters 3 and 4: **Button A** plays a rising chirp, **Button B** plays a falling one.
 
-![4.2.1 - MB_Up_Down_Melody](assets/4.2.1 - MB_Up_Down_Melody.png)
+![4.2.1 - MB_Up_Down_Melody](assets/4.2.1%20-%20MB_Up_Down_Melody.png)
 
 ```text
 when started
@@ -522,11 +522,11 @@ Writing out every note by hand (like we did in §4.1) is fine for a three-note j
 
 Using **§2.4**, add the **Ringtone** library (in the *Sound* folder). It uses the Tone library, which is added automatically if it isn't already.
 
-![4.3.0 - MB_RingTone_Library](assets/4.3.0 - MB_RingTone_Library.png)
+![4.3.0 - MB_RingTone_Library](assets/4.3.0%20-%20MB_RingTone_Library.png)
 
 🔧 Build the following script:
 
-![4.3.1 - MB_Ringtone](assets/4.3.1 - MB_Ringtone.png)
+![4.3.1 - MB_Ringtone](assets/4.3.1%20-%20MB_Ringtone.png)
 
 ```text
 when started
@@ -553,7 +553,7 @@ Jingle:d=8,o=5,b=120:e,e,4e,e,e,4e,e,g,c,d,2e
 
 Combine this with the buttons from Chapter 3: play a different tune depending on which button is pressed. And because MicroBlocks runs every script at the same time, we can blink the LED **while the music plays** - something that needed a special non-blocking player in CircuitPython.
 
-![4.3.2 - MB_Jukebox](assets/4.3.2 - MB_Jukebox.png)
+![4.3.2 - MB_Jukebox](assets/4.3.2%20-%20MB_Jukebox.png)
 
 ```text
 when started
@@ -580,7 +580,7 @@ when <button B> pressed
 
 **Nothing catches the eye like glowing LEDs!** NeoPixels are colorful, programmable RGB LEDs that display **millions of colors** by mixing red, green, and blue. Bear-Buddy carries a **5×5 serpentine NeoPixel matrix** (25 pixels) on `IO7`, perfect for faces, icons, and scrolling text.
 
-![5.1.2 - NeoPixel_matrix](assets/5.1.2 - NeoPixel_matrix.png)
+![5.1.2 - NeoPixel_matrix](assets/5.1.2%20-%20NeoPixel_matrix.png)
 
 
 
@@ -588,7 +588,7 @@ when <button B> pressed
 
 Each NeoPixel (WS2812-type LED) is an **intelligent RGB LED** that daisy-chains. Each LED reads the first color off the incoming data stream, keeps it, and passes the rest down the chain to the next pixel. In MicroBlocks the **NeoPixel** library handles all the tricky timing for us.
 
-![5.1.1 - NeoPixel_die](assets/5.1.1 - NeoPixel_die.png)
+![5.1.1 - NeoPixel_die](assets/5.1.1%20-%20NeoPixel_die.png)
 
 > 💡 Note:
 > You can read more about the protocol in the [WS2812B datasheet](https://github.com/TomatoCube18/Lattice_FPGA_MacroKeys/blob/main/Relevant_Docs_DataSheets/WorldSemi-WS2812B-Mini.pdf).
@@ -617,11 +617,11 @@ The TomatoCube MicroBlocks build gives you **two** ways to drive the matrix, and
 
 Using **§2.4**, add the **NeoPixel Serpentine** library from the cloud. (Remember to Choose **Cloud** and install the library from the following Github link): [NeoPixel Serpentine - https://raw.githubusercontent.com/TomatoCube18/test/main/NeoPixelTomatoCube.ubl](https://raw.githubusercontent.com/TomatoCube18/test/main/NeoPixelTomatoCube.ubl)
 
-![5.2.1 - MB_NeoPixel_Library](assets/5.2.1 - MB_NeoPixel_Library.png)
+![5.2.1 - MB_NeoPixel_Library](assets/5.2.1%20-%20MB_NeoPixel_Library.png)
 
 🔧 Build the following script:
 
-![5.2.2 - MB_NeoPixel_BlueBlink](assets/5.2.2 - MB_NeoPixel_BlueBlink.png)
+![5.2.2 - MB_NeoPixel_BlueBlink](assets/5.2.2%20-%20MB_NeoPixel_BlueBlink.png)
 
 ```text
 when started
@@ -649,7 +649,7 @@ To light one pixel you use `set NeoPixel (n) color ( )`, where **`n` runs `1 →
 
 But our matrix is wired in a **serpentine** pattern, and on this panel the chain **starts at the top-right**: the first row runs **right-to-left**, the next row runs **left-to-right**, and so on, zig-zagging like a snake. So pixel *number* order is **not** a tidy grid. To think in (x, y) coordinates we make our own block!
 
-![5.4.1 - Serpentine_Mapping](assets/5.4.1 - Serpentine_Mapping.svg)
+![5.4.1 - Serpentine_Mapping](assets/5.4.1%20-%20Serpentine_Mapping.svg)
 
 ##### 🛠️ Making Your Own Block (Advanced!)
 
@@ -657,7 +657,7 @@ But our matrix is wired in a **serpentine** pattern, and on this panel the chain
 2. Name it `pixel x y`. Click the **+** at the end of the name to add two inputs, `x` and `y`.
 3. Build its definition (x and y both go from **0 to 4**, with (0, 0) at the top-left):
 
-![5.3.1 - MB_PixelXY](assets/5.3.1 - MB_PixelXY.png)
+![5.3.1 - MB_PixelXY](assets/5.3.1%20-%20MB_PixelXY.png)
 
 ```text
 define (pixel (x) (y))
@@ -693,11 +693,11 @@ Drawing pictures pixel by pixel is a lot of work. The **LED Display** library (t
 
 Using **§2.4**, add the **LED Display** library (in the *Displays* folder).
 
-![5.4.1 - MB_LED_Display_Library](assets/5.4.1 - MB_LED_Display_Library.png)
+![5.4.1 - MB_LED_Display_Library](assets/5.4.1%20-%20MB_LED_Display_Library.png)
 
 🔧 Drag out the `display` block and **click squares in its 5×5 grid** to draw a picture. Here is a beating heart:
 
-![5.4.2 - MB_Heart](assets/5.4.2 - MB_Heart.png)
+![5.4.2 - MB_Heart](assets/5.4.2%20-%20MB_Heart.png)
 
 ```text
 when started
@@ -737,7 +737,7 @@ Patterns used in the screenshot (`#` = lit):
 
 The LED Display library can also **scroll text** across the matrix, letter by letter, using a built-in 5×5 font:
 
-![5.5.1 - MB_ScrollText](assets/5.5.1 - MB_ScrollText.png)
+![5.5.1 - MB_ScrollText](assets/5.5.1%20-%20MB_ScrollText.png)
 
 ```text
 when started
@@ -763,7 +763,7 @@ That's it - one block! 🎉
 
 Your kit includes an **infrared (IR) remote fob** that speaks the **NEC protocol**, the same scheme used by most TV remotes. Bear-Buddy has an IR receiver on `IO21`. In this chapter we read the remote's button codes and use them to control Bear-Buddy wirelessly.
 
-![6.1.1 - IR_Receiver_Remote](assets/6.1.1 - IR_Receiver_Remote.png)
+![6.1.1 - IR_Receiver_Remote](assets/6.1.1%20-%20IR_Receiver_Remote.png)
 
 ##### 🔦 How IR / NEC Works
 
@@ -773,7 +773,7 @@ The remote blinks an invisible infrared LED on and off in a precise timed patter
 
 Using **§2.4**, add the **IR Remote** library (in the *Others* folder).
 
-![6.1.1 - MB_IR_Library](assets/6.1.1 - MB_IR_Library.png)
+![6.1.1 - MB_IR_Library](assets/6.1.1%20-%20MB_IR_Library.png)
 
 ##### 📍 IR Pin Mapping
 
@@ -785,7 +785,7 @@ Using **§2.4**, add the **IR Remote** library (in the *Others* folder).
 
 Run this **first** to discover what each button on *your* fob sends, you'll need those numbers for the next step.
 
-![6.2.1 - MB_IR_Read](assets/6.2.1 - MB_IR_Read.png)
+![6.2.1 - MB_IR_Read](assets/6.2.1%20-%20MB_IR_Read.png)
 
 ```text
 when started
@@ -809,7 +809,7 @@ Point the remote at Bear-Buddy and press buttons. Write down the number shown in
 
 Now plug in *your* codes (from §6.2) to control the LED and the NeoPixel matrix.
 
-![6.3.1 - MB_IR_Actions](assets/6.3.1 - MB_IR_Actions.png)
+![6.3.1 - MB_IR_Actions](assets/6.3.1%20-%20MB_IR_Actions.png)
 
 ```text
 when started
@@ -850,7 +850,7 @@ The TomatoCube MicroBlocks build already knows these pins, so **you never need t
 
 We will hang **two** devices on this one bus: a **1602 character LCD** and a **DS1307 real-time clock**.
 
-![7.1.1 - i2C-location](assets/7.1.1 - i2C-location.png)
+![7.1.1 - i2C-location](assets/7.1.1%20-%20i2C-location.png)
 
 
 
@@ -858,11 +858,11 @@ We will hang **two** devices on this one bus: a **1602 character LCD** and a **D
 
 An I²C 1602 character LCD shows **16 characters across, 2 rows**, perfect for menus, sensor values, and messages. The kit's LCD uses I²C connectivity so it needs only one Grove or Qwiic cable, which delivers both I²C signals and power in one shot.
 
-![7.1.1 - LCD_1602](assets/7.1.1 - LCD_1602.png)
+![7.1.1 - LCD_1602](assets/7.1.1%20-%20LCD_1602.png)
 
 You can connect the I²C Grove cable to the LCD as such.
 
-![7.1.1 - i2c_LCD_1602_RTC](assets/7.1.1 - i2c_LCD_1602_RTC.png)
+![7.1.1 - i2c_LCD_1602_RTC](assets/7.1.1%20-%20i2c_LCD_1602_RTC.png)
 
 ##### 📍 I²C Addresses
 
@@ -879,7 +879,7 @@ In MicroBlocks, I²C addresses are typed as **decimal** numbers:
 
 The **Comm** category has the raw I²C blocks. `i2c get device ( ) register ( )` reads one byte from a device. If nothing answers at that address, it reports a **negative** number:
 
-![7.2.1 - MB_ScanI2C](assets/7.2.1 - MB_ScanI2C.png)
+![7.2.1 - MB_ScanI2C](assets/7.2.1%20-%20MB_ScanI2C.png)
 
 ```text
 when started
@@ -892,11 +892,11 @@ Click it: a value of `0` or more means the LCD answered at `39` (0x27). A negati
 
 Using **§2.4**, open the *Graphics & Displays* folder and add the **LCD Display** library.
 
-![7.2.2 - MB_LCD_Library](assets/7.2.2 - MB_LCD_Library.png)
+![7.2.2 - MB_LCD_Library](assets/7.2.2%20-%20MB_LCD_Library.png)
 
 🔧 Build the following script:
 
-![7.2.3 - MB_LCD_Hello](assets/7.2.3 - MB_LCD_Hello.png)
+![7.2.3 - MB_LCD_Hello](assets/7.2.3%20-%20MB_LCD_Hello.png)
 
 ```text
 when started
@@ -927,7 +927,7 @@ Many projects need **accurate timekeeping**, for clocks, logging, alarms, and ti
 
 The **DS1307** RTC module which fits snugly behind the 1602 Character LCD solves this. It keeps ticking on a small **backup battery (CR2032)** even when Bear-Buddy is switched off, and it communicates over the **same shared I²C bus** we just used for the LCD.
 
-![8.1.1 - DS1307_Module](assets/8.1.1 - DS1307_Module.png)
+![8.1.1 - DS1307_Module](assets/8.1.1%20-%20DS1307_Module.png)
 
 > 💡 Note:
 > The DS1307 is simple and reliable but **not temperature-compensated**, so it drifts a little more than a DS3231. For a learning clock that is perfectly fine, just expect a few seconds of drift over time.
@@ -954,7 +954,7 @@ The clock keeps the time in **registers** (numbered memory slots) at address `10
 
 Using **§2.4**, add the **Real Time Clock** library (in the *Others* folder).
 
-![8.1.1 - MB_RTC_Library](assets/8.1.1 - MB_RTC_Library.png)
+![8.1.1 - MB_RTC_Library](assets/8.1.1%20-%20MB_RTC_Library.png)
 
 
 ##### 🔢 BCD - Binary Coded Decimal
@@ -965,7 +965,7 @@ The DS1307 stores numbers in **BCD**: each decimal digit gets its own 4 bits. So
 
 ##### ⏰ Set the clock (run once!)
 
-![8.2.1 - MB_RTC_SetTime](assets/8.2.1 - MB_RTC_SetTime.png)
+![8.2.1 - MB_RTC_SetTime](assets/8.2.1%20-%20MB_RTC_SetTime.png)
 
 Change the numbers to the current date and time, then **click this script once**:
 
@@ -986,7 +986,7 @@ We put it under `when <button B> pressed` so it doesn't run by accident when Bea
 
 ##### 🕐 Read the clock
 
-![8.2.2 - MB_RTC_ReadTime](assets/8.2.2 - MB_RTC_ReadTime.png)
+![8.2.2 - MB_RTC_ReadTime](assets/8.2.2%20-%20MB_RTC_ReadTime.png)
 
 🔧 Build the following script:
 
@@ -1005,7 +1005,7 @@ when started
 Finally, let's put the whole chapter together: read the RTC and show a live clock on the 1602 LCD. 
 It will display "Bear-Clock: 2026" on LCD `row 1` and "(02/11) 05:17" on LCD `row 2`.
 
-![8.3.1 - MB_LCD_Clock](assets/8.3.1 - MB_LCD_Clock.png)
+![8.3.1 - MB_LCD_Clock](assets/8.3.1%20-%20MB_LCD_Clock.png)
 
 🔧 Build the following script:
 
@@ -1100,7 +1100,7 @@ The clock keeps the time in **registers** (numbered memory slots) at address `10
 
 The DS1307 stores numbers in **BCD**: each decimal digit gets its own 4 bits. So the number **45** is stored as `0100 0101` - a `4` in the top half and a `5` in the bottom half. We need two small custom blocks to convert back and forth (make them in **My Blocks**, see §5.3). The `>>`, `<<` and `&` blocks are in **Operators** (click the arrow on the `mod`/math blocks to find the bitwise ones):
 
-![10.2.1 - MB_RTC_RawBCD](assets/10.2.1 - MB_RTC_RawBCD.png)
+![10.2.1 - MB_RTC_RawBCD](assets/10.2.1%20-%20MB_RTC_RawBCD.png)
 
 ```text
 define (from BCD (n))
@@ -1114,7 +1114,7 @@ define (to BCD (n))
 
 Change the numbers to the current date and time, then **click this script once**:
 
-![10.2.2 - MB_RTC_RawSetTime](assets/10.2.2 - MB_RTC_RawSetTime.png)
+![10.2.2 - MB_RTC_RawSetTime](assets/10.2.2%20-%20MB_RTC_RawSetTime.png)
 
 ```text
 when <button B> pressed
@@ -1135,7 +1135,7 @@ We put it under `when <button B> pressed` so it doesn't run by accident when Bea
 
 ##### 🕐 Read the clock
 
-![10.2.3 - MB_RTC_RawReadTime](assets/10.2.3 - MB_RTC_RawReadTime.png)
+![10.2.3 - MB_RTC_RawReadTime](assets/10.2.3%20-%20MB_RTC_RawReadTime.png)
 
 ```text
 when started
