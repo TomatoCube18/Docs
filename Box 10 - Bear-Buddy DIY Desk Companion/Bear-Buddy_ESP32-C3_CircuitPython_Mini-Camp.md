@@ -50,7 +50,7 @@ Everything on Bear-Buddy is already wired to a fixed predefined pin on the ESP32
 | **IR Receiver**      | `IO21`                              |
 | **I²C bus** | `SDA = IO5`, `SCL = IO6`           |
 
-![1.3.1 - BearBuddy_Pinout](assets/1.3.1 - BearBuddy_Pinout.png)
+![1.3.1 - BearBuddy_Pinout](assets/1.3.1%20-%20BearBuddy_Pinout.png)
 
 > 💡 Note:
 > Keep this table handy. Whenever a chapter says `board.IO7`, it is talking about one of the pins above.
@@ -184,7 +184,7 @@ Your device `/` & `/lib/` folder will gradually fill up, for example:
 
 Before we embark on the full journey, we will do a quick test to verify that both hardware and software are set up correctly. Let's start with the **Hello-World of the embedded world**: blinking the on-board LED on `IO3`.
 
-![2.5.1 - LED_Location](assets/2.5.1 - LED_Location.png)
+![2.5.1 - LED_Location](assets/2.5.1%20-%20LED_Location.png)
 
 
 ##### 📍 LED Pin Mapping
@@ -364,7 +364,7 @@ Bear-Buddy has two tactile push-buttons. In this activity, each button toggles t
 
 - Press Button → MCU senses the change → LED toggles ON/OFF
 
-![3.1.1 - Buttons_Location](assets/3.1.1 - Buttons_Location.png)
+![3.1.1 - Buttons_Location](assets/3.1.1%20-%20Buttons_Location.png)
 
 ##### 📍 Button Pin Mapping
 
@@ -438,7 +438,7 @@ while True:
 
 **Everyone loves making noise!** Sound is produced when something **vibrates**, creating pressure waves in the air. Bear-Buddy has a buzzer on `IO10` that we can drive to make tones and melodies.
 
-![4.1.1 - Buzzer_Location](assets/4.1.1 - Buzzer_Location.png)
+![4.1.1 - Buzzer_Location](assets/4.1.1%20-%20Buzzer_Location.png)
 
 ##### 🎶 How Tone Generation Works
 
@@ -636,7 +636,7 @@ while True:
 
 **Nothing catches the eye like glowing LEDs!** NeoPixels are colorful, programmable RGB LEDs that display **millions of colors** by mixing red, green, and blue. Bear-Buddy carries a **5×5 serpentine NeoPixel matrix** (25 pixels) on `IO7`, perfect for faces, icons, and scrolling text.
 
-![5.1.2 - NeoPixel_matrix](assets/5.1.2 - NeoPixel_matrix.png)
+![5.1.2 - NeoPixel_matrix](assets/5.1.2%20-%20NeoPixel_matrix.png)
 
 
 
@@ -644,7 +644,7 @@ while True:
 
 Each NeoPixels (WS2812-type LEDs) are an **intelligent RGB LEDs** that daisy-chain. Each LED reads the first color off the incoming data stream, keeps it, and passes the rest down the chain to the next pixel. In CircuitPython the `neopixel` library handles all the tricky timing for us.
 
-![5.1.1 - NeoPixel_die](assets/5.1.1 - NeoPixel_die.png)
+![5.1.1 - NeoPixel_die](assets/5.1.1%20-%20NeoPixel_die.png)
 
 > 💡 Note:
 > You can read more about the protocol in the [WS2812B datasheet](https://github.com/TomatoCube18/Lattice_FPGA_MacroKeys/blob/main/Relevant_Docs_DataSheets/WorldSemi-WS2812B-Mini.pdf).
@@ -696,7 +696,7 @@ To light one pixel you index the chain: `pixels[n] = (R, G, B)`, where `n` runs 
 
 But our matrix is wired in a **serpentine** pattern, and on this panel the chain **starts at the top-right**: the first row runs **right-to-left**, the next row runs **left-to-right**, and so on, zig-zagging like a snake. So pixel *number* order is **not** a tidy grid. To think in (x, y) coordinates we convert with a small helper function:
 
-![5.4.1 - Serpentine_Mapping](assets/5.4.1 - Serpentine_Mapping.svg)
+![5.4.1 - Serpentine_Mapping](assets/5.4.1%20-%20Serpentine_Mapping.svg)
 
 ```python
 import board
@@ -857,7 +857,7 @@ while True:
 
 Your kit includes an **infrared (IR) remote fob** that speaks the **NEC protocol**, the same scheme used by most TV remotes. Bear-Buddy has an IR receiver on `IO21`. In this chapter we read the remote's button codes and use them to control Bear-Buddy wirelessly.
 
-![6.1.1 - IR_Receiver_Remote](assets/6.1.1 - IR_Receiver_Remote.png)
+![6.1.1 - IR_Receiver_Remote](assets/6.1.1%20-%20IR_Receiver_Remote.png)
 
 ##### 🔦 How IR / NEC Works
 
@@ -968,7 +968,7 @@ Bear-Buddy brings the I²C bus out through the i2C Grove socket on:
 
 We will hang **two** devices on this one bus: a **1602 character LCD** and a **DS1307 real-time clock**.
 
-![7.1.1 - i2C-location](assets/7.1.1 - i2C-location.png)
+![7.1.1 - i2C-location](assets/7.1.1%20-%20i2C-location.png)
 
 
 
@@ -976,11 +976,11 @@ We will hang **two** devices on this one bus: a **1602 character LCD** and a **D
 
 A i2C 1602 segmented character LCD shows **16 characters across, 2 rows**, perfect for menus, sensor values, and messages. The kit's LCD uses an I²C connectivity so it needs only one grove or qwiic cable which could delivers both I²C signals & power in one shot.
 
-![7.1.1 - LCD_1602](assets/7.1.1 - LCD_1602.png)
+![7.1.1 - LCD_1602](assets/7.1.1%20-%20LCD_1602.png)
 
 You can connect the I²C grove cable to the LCD as such.
 
-![7.1.1 - i2c_LCD_1602_RTC](assets/7.1.1 - i2c_LCD_1602_RTC.png)
+![7.1.1 - i2c_LCD_1602_RTC](assets/7.1.1%20-%20i2c_LCD_1602_RTC.png)
 
 
 
@@ -1070,7 +1070,7 @@ Many projects need **accurate timekeeping**, for clocks, logging, alarms, and ti
 
 The **DS1307** RTC module which fit snugly behind the segmented 1602 Character LCD solves this. It keeps ticking on a small **backup battery (CR2032)** even when Bear-Buddy is switched off, and it communicates over the **same shared I²C bus** we just used for the LCD.
 
-![8.1.1 - DS1307_Module](assets/8.1.1 - DS1307_Module.png)
+![8.1.1 - DS1307_Module](assets/8.1.1%20-%20DS1307_Module.png)
 
 > 💡 Note:
 > The DS1307 is simple and reliable but **not temperature-compensated**, so it drifts a little more than a DS3231 and has no built-in temperature sensor. For a learning clock that is perfectly fine, just expect a few seconds of drift over time.
