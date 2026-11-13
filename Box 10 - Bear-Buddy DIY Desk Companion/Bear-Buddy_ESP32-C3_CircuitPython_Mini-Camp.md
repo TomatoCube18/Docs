@@ -95,7 +95,7 @@ Two handy habits for the whole camp:
 - Your assembled **Bear-Buddy** (with an installed ESP32-C3 SuperMini develoment board)
 - A **USB-C** cable (a *data* cable, not charge-only)
 - Thonny IDE (Download: https://thonny.org)
-- The **Bear-Buddy library pack** bundled with your kit (contains the display driver), plus the official [CircuitPython Library Bundle](https://circuitpython.org/libraries)
+- The **Bear-Buddy 5x5 font file** bundled with your kit [`font5x5.bin - https://www.tomatocube.com/file_dir/misc_files/font5x5.bin`](https://www.tomatocube.com/file_dir/misc_files/font5x5.bin), plus the official latest [CircuitPython Library Bundle](https://circuitpython.org/libraries) or the [Tested CircuitPython Library Version - 20261003](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20261003/adafruit-circuitpython-bundle-10.x-mpy-20261003.zip)
 - (For flashing) the CircuitPython firmware for the **ESP32-C3** from https://circuitpython.org/downloads (search *ESP32-C3*), or use the **TomatoCube ESP32-C3 Firmware Flasher** at https://tomatocube.com/file_dir/misc_files/ESP32-C3_Flasher/
 
 #### 2.2: 🚀 Install CircuitPython on the ESP32-C3
@@ -158,7 +158,7 @@ dir(board)
 #### 2.4: ⭐ Installing Libraries Without a CIRCUITPY Drive
 This is the single most important setup step, and the biggest difference from the Raspberry Pico board. On the Pico you drag `.mpy` files onto a drive. On the ESP32-C3 you **upload** them through Thonny's Files pane instead. Do this once and the rest of the camp is easy.
 
-1. Download and unzip the [CircuitPython Library Bundle](https://circuitpython.org/libraries) (the **Bundle for Version 10.x**) on your computer. Keep the **Bear-Buddy library pack** from your kit unzipped too.
+1. Download and unzip the latest from [CircuitPython Library Bundle](https://circuitpython.org/libraries) (the **Bundle for Version 10.x**) or the [Tested CircuitPython Library Version - 20261003](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/download/20261003/adafruit-circuitpython-bundle-10.x-mpy-20261003.zip) on your computer. Keep the **Bear-Buddy library pack** from your kit unzipped too.
 2. In Thonny, open **View > Files**.
 3. In the **bottom (device)** pane, if there is no `lib` folder, right-click → **New directory…** → name it `lib`.
 4. In the **top (computer)** pane, browse into the bundle's `lib/` folder and find the library a chapter asks for.
