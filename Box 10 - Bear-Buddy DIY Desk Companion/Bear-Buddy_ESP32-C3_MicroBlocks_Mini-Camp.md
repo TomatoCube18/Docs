@@ -615,7 +615,7 @@ The TomatoCube MicroBlocks build gives you **two** ways to drive the matrix, and
 
 ##### 📦 Add the NeoPixel Library from the cloud
 
-Using **§2.4**, add the **NeoPixel Serpentine** library from the cloud. (Remember to Choose **Cloud** and install the library from the following Github link): [NeoPixel Serpentine - https://raw.githubusercontent.com/TomatoCube18/test/main/NeoPixelTomatoCube.ubl](https://raw.githubusercontent.com/TomatoCube18/test/main/NeoPixelTomatoCube.ubl)
+Using **§2.4**, add the **NeoPixel Serpentine** library from the cloud. (Remember to Choose **Cloud** and install the library from the following Github link): [NeoPixel Serpentine - https://raw.githubusercontent.com/TomatoCube18/Docs/refs/heads/main/Box%2010%20-%20Bear-Buddy%20DIY%20Desk%20Companion/assets/microblocks_ubp/NeoPixelTomatoCube.ubl](https://raw.githubusercontent.com/TomatoCube18/Docs/refs/heads/main/Box%2010%20-%20Bear-Buddy%20DIY%20Desk%20Companion/assets/microblocks_ubp/NeoPixelTomatoCube.ubl)
 
 ![5.2.1 - MB_NeoPixel_Library](assets/5.2.1%20-%20MB_NeoPixel_Library.png)
 
